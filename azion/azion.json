@@ -1,0 +1,58 @@
+{
+  "name": "TesteTempoLabs-Portifolio",
+  "bucket": "TesteTempoLabs-Portifolio",
+  "preset": "react",
+  "env": "production",
+  "prefix": "20250428191246",
+  "not-first-run": true,
+  "function": {
+    "id": 43505,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 40725,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 0
+  },
+  "application": {
+    "id": 1745862436,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1745869512,
+    "name": "TesteTempoLabs-Portifolio",
+    "domain_name": "ss7y7ntd3l.map.azionedge.net",
+    "url": "https://ss7y7ntd3l.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 210621,
+      "origin-key": "efdc05dc-d875-427c-ab6e-5aa3625fc1c6",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 400671,
+        "name": "Set Storage Origin for All Requests",
+        "phase": "request"
+      },
+      {
+        "id": 400672,
+        "name": "Deliver Static Assets",
+        "phase": "request"
+      },
+      {
+        "id": 400673,
+        "name": "Redirect to index.html",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
