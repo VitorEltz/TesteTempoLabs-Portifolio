@@ -1,36 +1,36 @@
 {
-  "name": "TesteTempoLabs-Portifolio-20250428194217",
-  "bucket": "TesteTempoLabs-Portifolio-20250428194217",
+  "name": "TesteTempoLabs-Portifolio-20250429213824",
+  "bucket": "TesteTempoLabs-Portifolio-20250429213824",
   "preset": "react",
   "env": "production",
-  "prefix": "20250428194216",
+  "prefix": "20250429213823",
   "not-first-run": true,
   "function": {
-    "id": 43512,
+    "id": 43609,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "azion/args.json",
-    "instance-id": 40731,
+    "instance-id": 40800,
     "instance-name": "__DEFAULT__",
     "cache-id": 0
   },
   "application": {
-    "id": 1745862464,
+    "id": 1745962861,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1745869526,
-    "name": "TesteTempoLabs-Portifolio-20250428194217",
-    "domain_name": "p3g29tpzof.map.azionedge.net",
-    "url": "https://p3g29tpzof.map.azionedge.net"
+    "id": 1745969819,
+    "name": "TesteTempoLabs-Portifolio-20250429213824",
+    "domain_name": "xde3mytkx2.map.azionedge.net",
+    "url": "https://xde3mytkx2.map.azionedge.net"
   },
   "rt-purge": {
     "purge_on_publish": true
   },
   "origin": [
     {
-      "origin-id": 210650,
-      "origin-key": "d78e0c03-e58d-4757-9959-2e7f458615dc",
+      "origin-id": 211147,
+      "origin-key": "a2dd342f-61e9-4e63-bdca-dd149b485d75",
       "name": "origin-storage-default"
     }
   ],
@@ -38,17 +38,17 @@
     "created": false,
     "rules": [
       {
-        "id": 400719,
+        "id": 401680,
         "name": "Set Storage Origin for All Requests",
         "phase": "request"
       },
       {
-        "id": 400720,
+        "id": 401681,
         "name": "Deliver Static Assets",
         "phase": "request"
       },
       {
-        "id": 400721,
+        "id": 401682,
         "name": "Redirect to index.html",
         "phase": "request"
       }
